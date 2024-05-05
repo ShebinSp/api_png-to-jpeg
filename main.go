@@ -9,10 +9,6 @@ import (
 	"github.com/joho/godotenv"
 )
 
-type Image struct {
-	ID   uint   `gorm:"primaryKey"`
-	Data []byte `gorm:"not null"`
-}
 
 func main() {
 
